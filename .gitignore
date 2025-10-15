@@ -166,3 +166,7 @@ cython_debug/
 *.pth 
 *.bin 
 *.db
+
+# Vector store files
+*.faiss
+*.pkl
