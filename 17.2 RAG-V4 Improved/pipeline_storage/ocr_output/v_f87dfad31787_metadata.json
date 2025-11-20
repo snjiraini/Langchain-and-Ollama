@@ -1,0 +1,31 @@
+{
+  "version_id": "v_f87dfad31787",
+  "total_pages": 2,
+  "doc_ocr_confidence": 0.8606,
+  "pages": [
+    {
+      "method": "easyocr",
+      "page_num": 0,
+      "avg_confidence": 0.8625,
+      "min_confidence": 0.5147,
+      "max_confidence": 1.0,
+      "text_region_count": 28,
+      "text_length": 639,
+      "image_dpi": 300,
+      "device": "mps",
+      "gpu_enabled": true
+    },
+    {
+      "method": "easyocr",
+      "page_num": 1,
+      "avg_confidence": 0.8587,
+      "min_confidence": 0.0237,
+      "max_confidence": 1.0,
+      "text_region_count": 80,
+      "text_length": 1501,
+      "image_dpi": 300,
+      "device": "mps",
+      "gpu_enabled": true
+    }
+  ]
+}
