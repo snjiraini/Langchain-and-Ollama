@@ -172,6 +172,6 @@ cython_debug/
 *.pkl
 
 # Pipeline storage - ignore all files but keep folder structure
-17.2*/pipeline_storage/**/*
-!17.2*/pipeline_storage/**/.gitkeep
+17.2*/pipeline_storage/**
 !17.2*/pipeline_storage/**/
+!17.2*/pipeline_storage/**/.gitkeep
