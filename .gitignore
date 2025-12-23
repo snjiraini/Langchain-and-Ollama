@@ -183,6 +183,15 @@ cython_debug/
 *.faiss
 *.pkl
 
+# Large dataset files - ignore PDFs in these directories
+# These contain reference documents and training data (often >5MB)
+**/docs/*.pdf
+**/rag-dataset/**/*.pdf
+
+# Keep smaller sample PDFs for testing/examples
+!**/data/*.pdf
+!**/resume/*.pdf
+
 # Pipeline storage - ignore all files but keep folder structure
 **/pipeline_storage/**
 !**/pipeline_storage/**/
